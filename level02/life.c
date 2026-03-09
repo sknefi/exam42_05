@@ -47,11 +47,11 @@ int     main( int ac, char *av[] )
         }
     }
     // display output
-    for (int i=1; i<=h; i++)
+    for (int i = 1; i <= h; i++)
     {
-        for (int j=1; j<=w; j++)
+        for (int j = 1; j <= w; j++)
         {
-            putchar(grid[iter%2][i][j] ? '0' : 'X');
+            putchar(grid[iter%2][i][j] ? 'O' : ' ');
         }
         putchar('\n');
     }
